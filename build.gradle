@@ -27,6 +27,7 @@ allure {
 
 dependencies {
     testImplementation (
+            'io.appium:java-client:8.3.0',
             'org.junit.jupiter:junit-jupiter:5.9.2',
             'com.codeborne:selenide:6.15.0',
             'io.qameta.allure:allure-selenide:2.21.0',
